@@ -1,0 +1,382 @@
+---
+title       : 社群對我職涯的影響
+author      : Wush Wu
+job         : Taiwan R User Group
+framework   : io2012-wush
+highlighter : highlight.js
+hitheme     : zenburn
+widgets     : [mathjax]            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+--- &vcenter .largecontent
+
+```{r include = FALSE}
+library(knitr)
+opts_chunk$set(echo = FALSE)
+fig <- function(path, size = 100, center = TRUE) {
+  if (center) {
+    sprintf('<center><img src="assets/img/%s" style="max-width:%d%%" /></center>', path, size)
+  } else {
+    sprintf('<img src="assets/img/%s" style="max-width:%d%%" />', path, size)
+  }
+}
+```
+
+## Wush
+
+- Taiwan R User Group 共同創辦人
+- 台大電機工程學研究所博士生
+- 已婚
+
+`r fig("26290.jpg", 40)`
+
+--- .segue .dark
+
+## 這是最好的時代，也是最壞的時代
+
+### （雙城記）
+
+--- &vcenter .largecontent
+
+## 22K
+
+`r fig("22k.jpg")`
+
+<small><http://www.ettoday.net/news/20130119/154657.htm></small>
+
+--- &vcenter .largecontent
+
+## 新鮮人沒有經驗
+
+`r fig("noexp.jpg", 75)`
+
+<small><https://www.facebook.com/howbegin2010/photos/a.188725151252132.18391.188535634604417/448271431964168></small>
+
+--- &vcenter .largecontent
+
+## 找到自己的價值
+
+- 遠離這個時代壞的部分
+- 善用這個時代好的部分
+
+--- &vcenter .largecontent
+
+## 網際網路、全球化
+
+- 沒有價值，更容易被世界其他地方的人取代
+- **有價值，更容易被世界看見**
+
+`r fig("internet.jpg")`
+
+<small><http://www.myhome.net.tw></small>
+
+--- &vcenter .largecontent
+
+## 如何擁有價值？
+
+- 能力
+- 興趣與熱情
+- 跨領域
+
+--- &vcenter .largecontent
+
+## 能力
+
+- 困擾數學界20多年的國際數學難題「西塔潘猜想」，被中南大學一個大三的學生劉路破解了！
+- 22歲的劉路，成為中國最年輕的數學教授。
+
+--- &vcenter .largecontent
+
+## 能力
+
+- 能在一個領域成為卓越中的卓越的人，一定是很少很少的
+
+`r fig("top.jpg", 75)`
+
+<small>hk.epochtimes.com</small>
+
+--- &vcenter .largecontent
+
+## 能力
+
+- 成績
+- 學歷
+
+--- &vcenter .largecontent
+
+## 能力
+
+- 我的成績不是頂尖，學歷也不是世界名校，是不是應該吊麵線自殺算了？
+
+--- &vcenter .largecontent
+
+## 能力
+
+- [zanyking (最後的六年級生) Re: [請益] 學歷對未來工作的重要性. ptt Soft\_Job](https://www.ptt.cc/bbs/Soft_Job/M.1445498847.A.65E.html) : 勇敢
+    - 畢業後，還要去資策會上課
+    - 結果？他的新創公司Fliptop被LinkedIn買了
+
+--- &vcenter .largecontent
+
+## 能力
+
+- 學海無涯
+
+`r fig("zimg-635762-1.jpg")`
+
+<small><http://global.rakuten.com></small>
+
+--- &vcenter .largecontent
+
+## 興趣與熱情
+
+- **什麼事情能讓你願意自主的投入，並且能夠把它做到完美？**
+
+--- &vcenter .largecontent
+
+## 找到自己會願意讓它完美的事情
+
+- 在這個時代，只有**有價值**的能力，能讓我們享受好的時代，而非壞的時代
+
+--- &vcenter .largecontent
+
+## 跨領域
+
+- 在單一領域取得卓越非常困難，可能是千萬個取一
+- 在跨領域取得卓越比較簡單，可能只是千個取一
+
+--- &vcenter .largecontent
+
+## 範例：英雄聯盟
+
+`r fig("poppy.jpg")`
+
+--- &vcenter .largecontent
+
+## 範例：貝克
+
+- S1 ~ S2 時代可以打到前1%
+- 有操控，有對遊戲的深刻理解
+- 英雄聯盟AHQ 戰隊的教練
+
+`r fig("beck.jpg", 50)`
+
+<small><http://www.youtube.com></small>
+
+--- &vcenter .largecontent
+
+## 範例：長毛
+
+- S1 ~ S2 時代，一百場卡牌的血淚
+- 英文超強
+- 遊戲主播經歷
+- soso的遊戲能力 + 遊戲主播能力 + 時勢 = 英雄聯盟最紅主播之一
+
+`r fig("lucifer.jpg")`
+
+<small><http://www.ettoday.net></small>
+
+--- &vcenter .largecontent
+
+## 人氣、影響力
+
+- 人們會擁抱有價值的事物
+    - 價值可以帶來人氣
+- 人氣帶來影響力
+    - 人氣也會帶來價值
+
+--- &vcenter .largecontent
+
+## 這是軟體的時代
+
+- 人生志趣 + 軟體技術 ==> 價值
+
+$$1 + 1 > 2$$
+
+--- &vcenter .largecontent
+
+## 用志趣驅動你的學習
+
+`r fig("taiwan-r.jpg", 50)`
+
+--- &vcenter .largecontent
+
+## 這是資訊的時代
+
+`r fig("information.jpg")`
+
+<small><http://mymkc.com></small>
+
+--- &vcenter .largecontent
+
+## 你的志趣？你的價值？
+
+- 你是否願意享受資訊時代帶給你的各種公開課程，各種貢獻機會，創造自己的價值？
+- 只要你有價值，資訊時代讓其他人更容易發現你的價值
+
+`r fig("coursera-logo-nobg.png")`
+
+--- &vcenter .largecontent
+
+## 這是全球化的時代
+
+`r fig("oversupply_main_03.gif")`
+
+<small><http://www.books.com.tw></small>
+
+--- &vcenter .largecontent
+
+## 你的志趣？你的價值？
+
+- 你要享受全球化的好處，還是只承受全球化的壞處？
+
+--- .dark .segue
+
+## 社群對我職涯的影響
+
+--- &vcenter .largecontent
+
+## R 社群
+
+- 2012年10月，我和家齊決定創辦R 社群，尋找R 的同好
+    - 我是數學系、統計所，又會寫程式(R, C++)的新鮮人
+    - R 當時是個小眾軟體（但是我運氣很好，它起飛了）
+
+`r fig("Taiwan-R-logo.png", 75)`
+
+--- &vcenter .largecontent
+
+## 跨領域
+
+- 我的統計不是頂尖
+- 我寫程式的能力也不是頂尖
+- 但是在R 的世界，我似乎走在很前面...
+
+`r fig("ranking.png")`
+
+--- &vcenter .largecontent
+
+## 在R 社群，我不是拿到東西，反而是一直給
+
+- 參與研討會
+- 辦活動
+- 籌備workshop
+- 寫套件
+
+--- &vcenter .largecontent
+
+## 給的人，收穫更豐碩
+
+- 舉辦或參加很多活動，認識很多人，就獲得更多的邀請
+    - g0v ==> 陳老師 ==> 資料科學愛好者年會
+    - R 社群 ==> Data Science Program ==> 智庫驅動 ==> 各種教學的機會
+- 認識更多的人，貢獻更多，就更增廣見聞
+
+--- &vcenter .largecontent
+
+## 給的人，收穫更豐碩
+
+- 社群的經驗，幫助我取得更好的工作
+    - 社群 ==> 證明我是個愛好貢獻的人 ==> 找工作增加了籌碼
+    - 給Talk、辦活動 ==> 證明我自己的能力 ==> 找工作增加了籌碼
+
+--- &vcenter .largecontent
+
+## 給的人，收穫更豐碩
+
+- 社群的交流，讓我定位與調整自己的價值
+    - 給Talk，反應不大 ==> 我沒有打到需求 ==> 反省與調整作法
+    - 避免敞帚自珍
+
+--- &vcenter .largecontent
+
+## 社群是什麼？
+
+- 一個大坑
+    - 坑需要人跳
+    - 坑越跳越大
+- 需要第一個跳的人，而且要跳得好
+
+`r fig("jump.gif")`
+
+--- &vcenter .largecontent
+
+## 社群是什麼？
+
+- 一個放大講者價值的「機會」
+    - 讓大家看到你
+    - 讓你找到貢獻的機會
+- 一個認識有價值的朋友的「地方」
+    - 有價值，就會帶來人氣
+
+--- &vcenter .largecontent
+
+## 同學如何利用社群？
+
+- 沒社群，就創一個
+    - 創立者是最累，但是做起來最好收割
+    - Open Source 社群也是很值得經營，這一切取決於你的「志趣」
+        - Github
+
+--- &vcenter .largecontent
+
+## 同學如何利用社群？
+- 加入既有社群，打入貢獻圈
+    - 不要只想著拿東西，要尋找貢獻的機會，主動出擊
+
+--- &vcenter .largecontent
+
+## 社群會如何回饋同學？
+
+- 申請獎學金、申請學校、公司
+    - 貢獻讓你脫離沒經驗
+- 但是不要為了這樣的目的去做貢獻，而是為了**價值**
+
+--- &vcenter .largecontent
+
+## 社群會如何回饋同學？
+
+- 讓人來認證自己價值的好地方
+- 讓世界察覺你的價值的好地方
+- 讓他人認證你的價值的好地方
+    - 免費的證照
+
+--- &vcenter .largecontent
+
+## 社群會如何回饋同學？
+
+- 更多的**貢獻機會**
+    - 如果是志趣，就自然會以這些貢獻為樂、為榮
+    - 這些貢獻，就是經驗
+
+--- &vcenter .largecontent
+
+## 社群會如何回饋同學？
+
+- 認識更多的同好
+- 獲得合作的機會
+- 人脈
+
+--- &vcenter .largecontent
+
+## 社群對我職涯的具體影響
+
+- 工作
+- 課業
+- 事業
+- 交流
+
+--- &vcenter .largecontent
+
+## 總結
+
+- 探索自己、尋找自己的興趣
+- 摸索結合興趣與專長的方向
+- 尋找自己的同好
+- 深耕與交流
+
+--- &vcenter .largecontent
+
+## Q&A
+
+
